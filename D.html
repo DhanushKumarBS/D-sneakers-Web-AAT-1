@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>D Sneakers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    background:black;
+    color:white;
+    font-family:'Segoe UI',sans-serif;
+}
+.navbar{
+    background:black;
+}
+.navbar a{
+    color:white !important;
+}
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    animation:fadeIn 2s;
+}
+.hero h1{
+    font-size:4rem;
+    letter-spacing:4px;
+}
+.hero p{
+    color:#ccc;
+}
+.section{
+    padding:80px 0;
+}
+.card{
+    background:#111;
+    border:none;
+    transition:0.4s;
+}
+.card:hover{
+    transform:scale(1.05);
+}
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+.card-body h5,
+.card-body p{
+    color:white;
+}
+.feature-box{
+    background:#111;
+    padding:30px;
+    border-radius:10px;
+    transition:0.3s;
+}
+.feature-box:hover{
+    transform:translateY(-10px);
+}
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+    color:#888;
+}
+@keyframes fadeIn{
+    from{opacity:0;transform:translateY(40px);}
+    to{opacity:1;transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">D SNEAKERS</a>
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#collection">Collection</a></li>
+<li class="nav-item"><a class="nav-link" href="#features">Why Us</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<h1>D SNEAKERS</h1>
+<p>Step into Style. Walk in Confidence.</p>
+<a href="#collection" class="btn btn-outline-light mt-3">Explore Collection</a>
+</div>
+</section>
+
+<section class="section" id="about">
+<div class="container text-center">
+<h2 class="mb-4">About Us</h2>
+<p>
+D Sneakers is a premium sneaker store focused on modern design,
+comfort, and bold street style. Built for everyday wear with a
+minimal black & white, colorful aesthetic.
+</p>
+</div>
+</section>
+
+<section class="section" id="collection">
+<div class="container">
+<h2 class="text-center mb-5">Our Collection</h2>
+<div class="row g-4">
+
+<!-- Shoe 1 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+<div class="card-body text-center">
+<h5>Urban Red</h5>
+<p>₹3,999</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 2 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549298916-b41d501d3772">
+<div class="card-body text-center">
+<h5>Street White</h5>
+<p>₹4,299</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 3 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
+<div class="card-body text-center">
+<h5>Shadow Flex</h5>
+<p>₹4,799</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 4 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+<div class="card-body text-center">
+<h5>Midwhite Run</h5>
+<p>₹5,199</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 5 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5">
+<div class="card-body text-center">
+<h5>Core Black</h5>
+<p>₹4,599</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 6 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990">
+<div class="card-body text-center">
+<h5>Velocity X Shirt</h5>
+<p>₹5,499</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 7 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa">
+<div class="card-body text-center">
+<h5>Adidas Nova</h5>
+<p>₹4,899</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 8 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a">
+<div class="card-body text-center">
+<h5>Street Boost</h5>
+<p>₹5,299</p>
+</div>
+</div>
+</div>
+
+<!-- Shoe 9 -->
+<div class="col-md-4">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605408499391-6368c628ef42">
+<div class="card-body text-center">
+<h5>Adidas Edge</h5>
+<p>₹5,999</p>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<section class="section" id="features">
+<div class="container">
+<h2 class="text-center mb-5">Why D Sneakers?</h2>
+<div class="row g-4 text-center">
+
+<div class="col-md-4">
+<div class="feature-box">
+<h4>Premium Quality</h4>
+<p>High-grade materials for durability and comfort.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="feature-box">
+<h4>Modern Design</h4>
+<p>Minimal black & white aesthetic with bold style.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="feature-box">
+<h4>All-Day Comfort</h4>
+<p>Designed for long wear and everyday use.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<div class="container text-center">
+<h2 class="mb-4">Contact Us</h2>
+<form class="col-md-6 mx-auto">
+<input type="text" class="form-control mb-3" placeholder="Name">
+<input type="email" class="form-control mb-3" placeholder="Email">
+<textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+<button class="btn btn-outline-light">Send Message</button>
+</form>
+</div>
+</section>
+
+<footer>
+<p>© 2025 D Sneakers | AAT-1 Web Technologies</p>
+</footer>
+
+</body>
+</html>
